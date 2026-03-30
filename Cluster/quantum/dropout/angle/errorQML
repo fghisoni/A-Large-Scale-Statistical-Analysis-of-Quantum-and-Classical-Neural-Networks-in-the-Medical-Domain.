@@ -1,0 +1,311 @@
+/home/ghisoni/quantum_computing/medical_qnn/final/quantum/dropout/angle/ce_angle.py:27: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.
+The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.
+
+For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.
+
+
+  data['Sex'].replace(['M', 'F'],
+/home/ghisoni/quantum_computing/medical_qnn/final/quantum/dropout/angle/ce_angle.py:27: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  data['Sex'].replace(['M', 'F'],
+/home/ghisoni/quantum_computing/medical_qnn/final/quantum/dropout/angle/ce_angle.py:30: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.
+The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.
+
+For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.
+
+
+  data['ExerciseAngina'].replace(['N', 'Y'],
+/home/ghisoni/quantum_computing/medical_qnn/final/quantum/dropout/angle/ce_angle.py:30: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  data['ExerciseAngina'].replace(['N', 'Y'],
+/home/ghisoni/quantum_computing/medical_qnn/final/quantum/dropout/angle/ce_angle.py:33: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.
+The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.
+
+For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.
+
+
+  data['ChestPainType'].replace(['ATA', 'NAP', 'ASY', 'TA'], [0,1,2,3], inplace=True)
+/home/ghisoni/quantum_computing/medical_qnn/final/quantum/dropout/angle/ce_angle.py:33: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  data['ChestPainType'].replace(['ATA', 'NAP', 'ASY', 'TA'], [0,1,2,3], inplace=True)
+/home/ghisoni/quantum_computing/medical_qnn/final/quantum/dropout/angle/ce_angle.py:35: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.
+The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.
+
+For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.
+
+
+  data['RestingECG'].replace(['Normal', 'ST', 'LVH'], [0,1,2], inplace=True)
+/home/ghisoni/quantum_computing/medical_qnn/final/quantum/dropout/angle/ce_angle.py:35: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  data['RestingECG'].replace(['Normal', 'ST', 'LVH'], [0,1,2], inplace=True)
+/home/ghisoni/quantum_computing/medical_qnn/final/quantum/dropout/angle/ce_angle.py:37: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.
+The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.
+
+For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.
+
+
+  data['ST_Slope'].replace(['Up', 'Flat', 'Down'], [0,1,2], inplace=True)
+/home/ghisoni/quantum_computing/medical_qnn/final/quantum/dropout/angle/ce_angle.py:37: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  data['ST_Slope'].replace(['Up', 'Flat', 'Down'], [0,1,2], inplace=True)
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+2025-07-19 10:42:41.824012: E external/xla/xla/service/slow_operation_alarm.cc:65] 
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-19 10:56:44.600126: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 14h10m8.457548913s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+Traceback (most recent call last):
+  File "/home/ghisoni/quantum_computing/medical_qnn/final/quantum/dropout/angle/ce_angle.py", line 303, in <module>
+    fname_test_acc = f'Results/Cross_Entropy/test_acc_{layers}layers_batchsize{batch_size}_stocstep{stocastic_step}_{seed}seed_{drop_rate_tot}droprate_CE.txt'
+NameError: name 'drop_rate_tot' is not defined
+2025-07-19 12:12:04.517786: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 30h20.971960924s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-19 12:38:54.691030: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 15h58m16.176216625s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-19 12:50:23.698949: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 16h9m47.627356743s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-19 12:52:03.547655: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 16h11m30.318665066s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+Traceback (most recent call last):
+  File "/home/ghisoni/quantum_computing/medical_qnn/final/quantum/dropout/angle/ce_angle.py", line 303, in <module>
+    fname_test_acc = f'Results/Cross_Entropy/test_acc_{layers}layers_batchsize{batch_size}_stocstep{stocastic_step}_{seed}seed_{drop_rate_tot}droprate_CE.txt'
+NameError: name 'drop_rate_tot' is not defined
+Traceback (most recent call last):
+  File "/home/ghisoni/quantum_computing/medical_qnn/final/quantum/dropout/angle/ce_angle.py", line 303, in <module>
+    fname_test_acc = f'Results/Cross_Entropy/test_acc_{layers}layers_batchsize{batch_size}_stocstep{stocastic_step}_{seed}seed_{drop_rate_tot}droprate_CE.txt'
+NameError: name 'drop_rate_tot' is not defined
+Traceback (most recent call last):
+  File "/home/ghisoni/quantum_computing/medical_qnn/final/quantum/dropout/angle/ce_angle.py", line 303, in <module>
+    fname_test_acc = f'Results/Cross_Entropy/test_acc_{layers}layers_batchsize{batch_size}_stocstep{stocastic_step}_{seed}seed_{drop_rate_tot}droprate_CE.txt'
+NameError: name 'drop_rate_tot' is not defined
+2025-07-19 13:35:10.299926: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 31h6m39.729833799s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-19 14:40:54.829726: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 32h22m12.578495767s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-19 15:24:53.388310: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 18h36m40.77751506s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+Traceback (most recent call last):
+  File "/home/ghisoni/quantum_computing/medical_qnn/final/quantum/dropout/angle/ce_angle.py", line 303, in <module>
+    fname_test_acc = f'Results/Cross_Entropy/test_acc_{layers}layers_batchsize{batch_size}_stocstep{stocastic_step}_{seed}seed_{drop_rate_tot}droprate_CE.txt'
+NameError: name 'drop_rate_tot' is not defined
+2025-07-19 16:00:47.031211: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 17h54m26.217211338s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-19 16:17:16.865258: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 32h49m16.442689518s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+Traceback (most recent call last):
+  File "/home/ghisoni/quantum_computing/medical_qnn/final/quantum/dropout/angle/ce_angle.py", line 303, in <module>
+    fname_test_acc = f'Results/Cross_Entropy/test_acc_{layers}layers_batchsize{batch_size}_stocstep{stocastic_step}_{seed}seed_{drop_rate_tot}droprate_CE.txt'
+NameError: name 'drop_rate_tot' is not defined
+2025-07-19 18:02:48.398510: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 19h23m35.736504739s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-19 18:12:18.756180: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 20h41m29.615411812s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-19 18:12:33.228914: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 16h18m5.59479566s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-19 18:23:33.177740: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 18h48m18.800117051s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+Traceback (most recent call last):
+  File "/home/ghisoni/quantum_computing/medical_qnn/final/quantum/dropout/angle/ce_angle.py", line 303, in <module>
+    fname_test_acc = f'Results/Cross_Entropy/test_acc_{layers}layers_batchsize{batch_size}_stocstep{stocastic_step}_{seed}seed_{drop_rate_tot}droprate_CE.txt'
+NameError: name 'drop_rate_tot' is not defined
+Traceback (most recent call last):
+  File "/home/ghisoni/quantum_computing/medical_qnn/final/quantum/dropout/angle/ce_angle.py", line 303, in <module>
+    fname_test_acc = f'Results/Cross_Entropy/test_acc_{layers}layers_batchsize{batch_size}_stocstep{stocastic_step}_{seed}seed_{drop_rate_tot}droprate_CE.txt'
+NameError: name 'drop_rate_tot' is not defined
+Traceback (most recent call last):
+  File "/home/ghisoni/quantum_computing/medical_qnn/final/quantum/dropout/angle/ce_angle.py", line 303, in <module>
+    fname_test_acc = f'Results/Cross_Entropy/test_acc_{layers}layers_batchsize{batch_size}_stocstep{stocastic_step}_{seed}seed_{drop_rate_tot}droprate_CE.txt'
+NameError: name 'drop_rate_tot' is not defined
+2025-07-19 18:38:03.214684: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 33h18m6.880804502s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+Traceback (most recent call last):
+  File "/home/ghisoni/quantum_computing/medical_qnn/final/quantum/dropout/angle/ce_angle.py", line 303, in <module>
+    fname_test_acc = f'Results/Cross_Entropy/test_acc_{layers}layers_batchsize{batch_size}_stocstep{stocastic_step}_{seed}seed_{drop_rate_tot}droprate_CE.txt'
+NameError: name 'drop_rate_tot' is not defined
+2025-07-19 19:42:40.613638: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 22h6m51.169887454s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-19 19:51:18.342708: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 18h56m20.673239506s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-19 20:05:06.238100: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 18h37m5.543195106s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-19 20:09:01.279977: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 36h24m40.404375795s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+Traceback (most recent call last):
+  File "/home/ghisoni/quantum_computing/medical_qnn/final/quantum/dropout/angle/ce_angle.py", line 303, in <module>
+    fname_test_acc = f'Results/Cross_Entropy/test_acc_{layers}layers_batchsize{batch_size}_stocstep{stocastic_step}_{seed}seed_{drop_rate_tot}droprate_CE.txt'
+NameError: name 'drop_rate_tot' is not defined
+Traceback (most recent call last):
+  File "/home/ghisoni/quantum_computing/medical_qnn/final/quantum/dropout/angle/ce_angle.py", line 303, in <module>
+    fname_test_acc = f'Results/Cross_Entropy/test_acc_{layers}layers_batchsize{batch_size}_stocstep{stocastic_step}_{seed}seed_{drop_rate_tot}droprate_CE.txt'
+NameError: name 'drop_rate_tot' is not defined
+Traceback (most recent call last):
+  File "/home/ghisoni/quantum_computing/medical_qnn/final/quantum/dropout/angle/ce_angle.py", line 303, in <module>
+    fname_test_acc = f'Results/Cross_Entropy/test_acc_{layers}layers_batchsize{batch_size}_stocstep{stocastic_step}_{seed}seed_{drop_rate_tot}droprate_CE.txt'
+NameError: name 'drop_rate_tot' is not defined
+2025-07-19 22:40:54.629008: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 36h41m35.999102953s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-19 23:10:30.625484: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 22h6m42.21307401s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+Traceback (most recent call last):
+  File "/home/ghisoni/quantum_computing/medical_qnn/final/quantum/dropout/angle/ce_angle.py", line 303, in <module>
+    fname_test_acc = f'Results/Cross_Entropy/test_acc_{layers}layers_batchsize{batch_size}_stocstep{stocastic_step}_{seed}seed_{drop_rate_tot}droprate_CE.txt'
+NameError: name 'drop_rate_tot' is not defined
+2025-07-20 00:47:15.073279: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 38h46m1.576114614s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-20 01:15:49.004518: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 23h18m18.3536535s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+Traceback (most recent call last):
+  File "/home/ghisoni/quantum_computing/medical_qnn/final/quantum/dropout/angle/ce_angle.py", line 303, in <module>
+    fname_test_acc = f'Results/Cross_Entropy/test_acc_{layers}layers_batchsize{batch_size}_stocstep{stocastic_step}_{seed}seed_{drop_rate_tot}droprate_CE.txt'
+NameError: name 'drop_rate_tot' is not defined
+2025-07-20 02:11:40.926939: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 22h10m2.172507206s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-20 02:13:30.700791: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 21h49m28.087481598s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+Traceback (most recent call last):
+  File "/home/ghisoni/quantum_computing/medical_qnn/final/quantum/dropout/angle/ce_angle.py", line 303, in <module>
+    fname_test_acc = f'Results/Cross_Entropy/test_acc_{layers}layers_batchsize{batch_size}_stocstep{stocastic_step}_{seed}seed_{drop_rate_tot}droprate_CE.txt'
+NameError: name 'drop_rate_tot' is not defined
+Traceback (most recent call last):
+  File "/home/ghisoni/quantum_computing/medical_qnn/final/quantum/dropout/angle/ce_angle.py", line 303, in <module>
+    fname_test_acc = f'Results/Cross_Entropy/test_acc_{layers}layers_batchsize{batch_size}_stocstep{stocastic_step}_{seed}seed_{drop_rate_tot}droprate_CE.txt'
+NameError: name 'drop_rate_tot' is not defined
+2025-07-20 03:24:29.233866: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 22h57m7.235163304s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+Traceback (most recent call last):
+  File "/home/ghisoni/quantum_computing/medical_qnn/final/quantum/dropout/angle/ce_angle.py", line 303, in <module>
+    fname_test_acc = f'Results/Cross_Entropy/test_acc_{layers}layers_batchsize{batch_size}_stocstep{stocastic_step}_{seed}seed_{drop_rate_tot}droprate_CE.txt'
+NameError: name 'drop_rate_tot' is not defined
+2025-07-20 04:00:59.501800: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 36h36m35.269007481s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-20 04:30:36.510652: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 23h4m43.564664648s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+Traceback (most recent call last):
+  File "/home/ghisoni/quantum_computing/medical_qnn/final/quantum/dropout/angle/ce_angle.py", line 303, in <module>
+    fname_test_acc = f'Results/Cross_Entropy/test_acc_{layers}layers_batchsize{batch_size}_stocstep{stocastic_step}_{seed}seed_{drop_rate_tot}droprate_CE.txt'
+NameError: name 'drop_rate_tot' is not defined
+2025-07-20 05:42:48.043472: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 23h45m24.313986227s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+Traceback (most recent call last):
+  File "/home/ghisoni/quantum_computing/medical_qnn/final/quantum/dropout/angle/ce_angle.py", line 303, in <module>
+    fname_test_acc = f'Results/Cross_Entropy/test_acc_{layers}layers_batchsize{batch_size}_stocstep{stocastic_step}_{seed}seed_{drop_rate_tot}droprate_CE.txt'
+NameError: name 'drop_rate_tot' is not defined
+2025-07-20 07:10:27.948138: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 27h3m5.88694549s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-20 07:18:30.979830: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 21h45m27.602932216s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+Traceback (most recent call last):
+  File "/home/ghisoni/quantum_computing/medical_qnn/final/quantum/dropout/angle/ce_angle.py", line 303, in <module>
+    fname_test_acc = f'Results/Cross_Entropy/test_acc_{layers}layers_batchsize{batch_size}_stocstep{stocastic_step}_{seed}seed_{drop_rate_tot}droprate_CE.txt'
+NameError: name 'drop_rate_tot' is not defined
+Traceback (most recent call last):
+  File "/home/ghisoni/quantum_computing/medical_qnn/final/quantum/dropout/angle/ce_angle.py", line 303, in <module>
+    fname_test_acc = f'Results/Cross_Entropy/test_acc_{layers}layers_batchsize{batch_size}_stocstep{stocastic_step}_{seed}seed_{drop_rate_tot}droprate_CE.txt'
+NameError: name 'drop_rate_tot' is not defined
+2025-07-20 08:32:12.169370: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 21h51m30.345013358s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-20 08:33:34.203797: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 25h30m36.950990315s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+Traceback (most recent call last):
+  File "/home/ghisoni/quantum_computing/medical_qnn/final/quantum/dropout/angle/ce_angle.py", line 303, in <module>
+    fname_test_acc = f'Results/Cross_Entropy/test_acc_{layers}layers_batchsize{batch_size}_stocstep{stocastic_step}_{seed}seed_{drop_rate_tot}droprate_CE.txt'
+NameError: name 'drop_rate_tot' is not defined
+Traceback (most recent call last):
+  File "/home/ghisoni/quantum_computing/medical_qnn/final/quantum/dropout/angle/ce_angle.py", line 303, in <module>
+    fname_test_acc = f'Results/Cross_Entropy/test_acc_{layers}layers_batchsize{batch_size}_stocstep{stocastic_step}_{seed}seed_{drop_rate_tot}droprate_CE.txt'
+NameError: name 'drop_rate_tot' is not defined

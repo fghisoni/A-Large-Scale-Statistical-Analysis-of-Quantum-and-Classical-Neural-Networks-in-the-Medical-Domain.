@@ -1,0 +1,415 @@
+/home/ghisoni/quantum_computing/medical_qnn/final/train_size/ce_angle_dropout.py:29: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.
+The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.
+
+For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.
+
+
+  data['Sex'].replace(['M', 'F'],
+/home/ghisoni/quantum_computing/medical_qnn/final/train_size/ce_angle_dropout.py:29: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  data['Sex'].replace(['M', 'F'],
+/home/ghisoni/quantum_computing/medical_qnn/final/train_size/ce_angle_dropout.py:32: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.
+The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.
+
+For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.
+
+
+  data['ExerciseAngina'].replace(['N', 'Y'],
+/home/ghisoni/quantum_computing/medical_qnn/final/train_size/ce_angle_dropout.py:32: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  data['ExerciseAngina'].replace(['N', 'Y'],
+/home/ghisoni/quantum_computing/medical_qnn/final/train_size/ce_angle_dropout.py:35: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.
+The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.
+
+For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.
+
+
+  data['ChestPainType'].replace(['ATA', 'NAP', 'ASY', 'TA'], [0,1,2,3], inplace=True)
+/home/ghisoni/quantum_computing/medical_qnn/final/train_size/ce_angle_dropout.py:35: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  data['ChestPainType'].replace(['ATA', 'NAP', 'ASY', 'TA'], [0,1,2,3], inplace=True)
+/home/ghisoni/quantum_computing/medical_qnn/final/train_size/ce_angle_dropout.py:37: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.
+The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.
+
+For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.
+
+
+  data['RestingECG'].replace(['Normal', 'ST', 'LVH'], [0,1,2], inplace=True)
+/home/ghisoni/quantum_computing/medical_qnn/final/train_size/ce_angle_dropout.py:37: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  data['RestingECG'].replace(['Normal', 'ST', 'LVH'], [0,1,2], inplace=True)
+/home/ghisoni/quantum_computing/medical_qnn/final/train_size/ce_angle_dropout.py:39: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.
+The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.
+
+For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.
+
+
+  data['ST_Slope'].replace(['Up', 'Flat', 'Down'], [0,1,2], inplace=True)
+/home/ghisoni/quantum_computing/medical_qnn/final/train_size/ce_angle_dropout.py:39: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  data['ST_Slope'].replace(['Up', 'Flat', 'Down'], [0,1,2], inplace=True)
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+/home/ghisoni/quantum_computing/medical_qnn/final/train_size/ce_angle_dropout.py:29: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.
+The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.
+
+For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.
+
+
+  data['Sex'].replace(['M', 'F'],
+/home/ghisoni/quantum_computing/medical_qnn/final/train_size/ce_angle_dropout.py:29: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  data['Sex'].replace(['M', 'F'],
+/home/ghisoni/quantum_computing/medical_qnn/final/train_size/ce_angle_dropout.py:32: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.
+The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.
+
+For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.
+
+
+  data['ExerciseAngina'].replace(['N', 'Y'],
+/home/ghisoni/quantum_computing/medical_qnn/final/train_size/ce_angle_dropout.py:32: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  data['ExerciseAngina'].replace(['N', 'Y'],
+/home/ghisoni/quantum_computing/medical_qnn/final/train_size/ce_angle_dropout.py:35: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.
+The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.
+
+For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.
+
+
+  data['ChestPainType'].replace(['ATA', 'NAP', 'ASY', 'TA'], [0,1,2,3], inplace=True)
+/home/ghisoni/quantum_computing/medical_qnn/final/train_size/ce_angle_dropout.py:35: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  data['ChestPainType'].replace(['ATA', 'NAP', 'ASY', 'TA'], [0,1,2,3], inplace=True)
+/home/ghisoni/quantum_computing/medical_qnn/final/train_size/ce_angle_dropout.py:37: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.
+The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.
+
+For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.
+
+
+  data['RestingECG'].replace(['Normal', 'ST', 'LVH'], [0,1,2], inplace=True)
+/home/ghisoni/quantum_computing/medical_qnn/final/train_size/ce_angle_dropout.py:37: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  data['RestingECG'].replace(['Normal', 'ST', 'LVH'], [0,1,2], inplace=True)
+/home/ghisoni/quantum_computing/medical_qnn/final/train_size/ce_angle_dropout.py:39: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.
+The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.
+
+For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.
+
+
+  data['ST_Slope'].replace(['Up', 'Flat', 'Down'], [0,1,2], inplace=True)
+/home/ghisoni/quantum_computing/medical_qnn/final/train_size/ce_angle_dropout.py:39: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  data['ST_Slope'].replace(['Up', 'Flat', 'Down'], [0,1,2], inplace=True)
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+2025-07-25 18:56:52.987761: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 1h1m21.24682244s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-25 18:56:53.014834: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 1h1m20.785974659s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-25 18:57:00.954968: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 1h1m29.126799218s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-25 18:57:04.634727: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 1h1m32.865243222s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-25 18:57:10.554709: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 1h1m18.035237575s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-25 18:57:29.160662: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 1h1m36.679015942s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-25 18:57:30.144778: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 1h1m37.609394713s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-25 18:57:32.509515: E external/xla/xla/service/slow_operation_alarm.cc:65] 
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-25 18:57:34.991369: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 1h1m42.419285655s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-25 18:57:41.167626: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 1h1m48.404654174s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-25 18:57:41.980567: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 1h2m10.181541553s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-25 18:57:44.072431: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 1h1m51.484315599s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-25 18:57:46.305557: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 1h2m12.785527135s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-25 18:58:02.687483: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 1h2m30.304150662s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-25 18:58:04.556541: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 1h2m32.626937277s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-25 18:58:05.752600: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 1h2m12.885904349s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-25 18:58:06.012937: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 1h2m13.251559818s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-25 18:58:29.332644: E external/xla/xla/service/slow_operation_alarm.cc:65] 
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-25 18:59:37.931398: E external/xla/xla/service/slow_operation_alarm.cc:65] 
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-25 18:59:54.790691: E external/xla/xla/service/slow_operation_alarm.cc:65] 
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-25 19:00:02.864399: E external/xla/xla/service/slow_operation_alarm.cc:65] 
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-25 19:00:12.189465: E external/xla/xla/service/slow_operation_alarm.cc:65] 
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-25 19:00:25.382402: E external/xla/xla/service/slow_operation_alarm.cc:65] 
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-25 19:00:57.051201: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 1h5m18.303238423s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-25 19:00:59.830865: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 1h5m21.297228835s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-26 02:41:33.088870: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 8h40m57.169466399s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-26 03:00:02.830215: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 10h27m17.660709329s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-26 04:15:58.303766: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 10h13m48.073171622s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-26 04:19:55.855254: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 10h17m42.095497385s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-26 04:41:58.300880: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 10h40m12.984922355s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-26 05:13:43.639946: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 10h15m31.450310905s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-26 05:21:54.638625: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 11h20m27.81455505s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-26 05:40:42.775906: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 10h53m14.617321441s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-26 05:42:13.872316: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 11h40m7.775839337s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-26 06:09:46.103366: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 12h8m7.235207869s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-26 06:24:32.786584: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 12h23m3.30614515s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-26 06:33:45.628298: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 12h32m20.424182282s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-26 06:51:23.077324: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 12h2m33.833125174s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-26 06:54:36.443454: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 12h52m30.393591204s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-26 07:23:40.739345: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 13h22m17.908146716s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-26 07:41:43.032991: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 12h53m2.001802069s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-26 07:57:53.721990: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 13h56m33.572755413s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-26 08:10:28.489473: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 14h8m24.530620909s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-26 08:16:29.139965: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 14h15m6.263658338s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-26 08:21:28.719531: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 14h17m0.342433925s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-26 08:24:41.582938: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 14h23m14.906981689s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-26 08:26:23.083188: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 13h36m16.101335363s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-26 08:28:51.710079: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 13h38m43.372041843s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-26 08:28:58.489192: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 13h33m25.97921434s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-26 08:38:28.514022: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 13h41m59.180873139s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-26 08:41:57.766130: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 13h44m19.834186362s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-26 08:42:09.747120: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 14h40m3.286888863s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-26 09:17:51.361186: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 15h13m27.110563808s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-26 09:18:44.808428: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 14h20m50.01731804s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-26 09:23:24.289157: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 14h25m21.424189251s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-26 09:25:42.539469: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 14h27m17.156456479s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-26 09:49:52.966495: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 15h45m24.440406789s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-26 09:56:34.479813: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 15h54m19.726021333s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-26 10:21:39.617139: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 16h17m17.210412268s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-26 10:28:14.113388: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 16h25m41.633177066s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-26 10:29:55.466726: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 16h27m21.793262021s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-26 10:31:23.403230: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 16h28m50.758636216s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-26 10:32:57.943241: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 16h30m25.367508678s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-26 10:38:16.753266: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 16h35m50.969096694s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-26 10:40:53.880285: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 16h38m19.076859967s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-26 10:41:01.619235: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 16h38m26.749303709s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************

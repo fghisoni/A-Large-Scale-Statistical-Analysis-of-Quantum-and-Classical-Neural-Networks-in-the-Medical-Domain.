@@ -1,0 +1,52 @@
+/home/ghisoni/quantum_computing/medical_qnn/final/quantum/qnn/angle/cedr_angle.py:27: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.
+The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.
+
+For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.
+
+
+  data['Sex'].replace(['M', 'F'],
+/home/ghisoni/quantum_computing/medical_qnn/final/quantum/qnn/angle/cedr_angle.py:27: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  data['Sex'].replace(['M', 'F'],
+/home/ghisoni/quantum_computing/medical_qnn/final/quantum/qnn/angle/cedr_angle.py:30: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.
+The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.
+
+For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.
+
+
+  data['ExerciseAngina'].replace(['N', 'Y'],
+/home/ghisoni/quantum_computing/medical_qnn/final/quantum/qnn/angle/cedr_angle.py:30: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  data['ExerciseAngina'].replace(['N', 'Y'],
+/home/ghisoni/quantum_computing/medical_qnn/final/quantum/qnn/angle/cedr_angle.py:33: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.
+The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.
+
+For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.
+
+
+  data['ChestPainType'].replace(['ATA', 'NAP', 'ASY', 'TA'], [0,1,2,3], inplace=True)
+/home/ghisoni/quantum_computing/medical_qnn/final/quantum/qnn/angle/cedr_angle.py:33: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  data['ChestPainType'].replace(['ATA', 'NAP', 'ASY', 'TA'], [0,1,2,3], inplace=True)
+/home/ghisoni/quantum_computing/medical_qnn/final/quantum/qnn/angle/cedr_angle.py:35: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.
+The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.
+
+For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.
+
+
+  data['RestingECG'].replace(['Normal', 'ST', 'LVH'], [0,1,2], inplace=True)
+/home/ghisoni/quantum_computing/medical_qnn/final/quantum/qnn/angle/cedr_angle.py:35: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  data['RestingECG'].replace(['Normal', 'ST', 'LVH'], [0,1,2], inplace=True)
+/home/ghisoni/quantum_computing/medical_qnn/final/quantum/qnn/angle/cedr_angle.py:37: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.
+The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.
+
+For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.
+
+
+  data['ST_Slope'].replace(['Up', 'Flat', 'Down'], [0,1,2], inplace=True)
+/home/ghisoni/quantum_computing/medical_qnn/final/quantum/qnn/angle/cedr_angle.py:37: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  data['ST_Slope'].replace(['Up', 'Flat', 'Down'], [0,1,2], inplace=True)
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+2025-07-23 18:08:19.382331: E external/xla/xla/service/slow_operation_alarm.cc:65] 
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+/var/spool/slurm/job636444/slurm_script: riga 14: 3224978 Killed                  python cedr_angle.py $1 $2
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=636444.batch. Some of your processes may have been killed by the cgroup out-of-memory handler.

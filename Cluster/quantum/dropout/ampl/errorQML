@@ -1,0 +1,212 @@
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+/home/ghisoni/.conda/envs/qml_jax_env/lib/python3.10/site-packages/jax/_src/numpy/array_methods.py:795: UserWarning: Explicitly requested dtype <class 'jax.numpy.float64'> requested in astype is not available, and will be truncated to dtype float32. To enable more dtypes, set the jax_enable_x64 configuration option or the JAX_ENABLE_X64 shell environment variable. See https://github.com/google/jax#current-gotchas for more.
+  return getattr(self.aval, name).fun(self, *args, **kwargs)
+/home/ghisoni/.conda/envs/qml_jax_env/lib/python3.10/site-packages/jax/_src/numpy/array_methods.py:795: UserWarning: Explicitly requested dtype <class 'jax.numpy.complex128'> requested in astype is not available, and will be truncated to dtype complex64. To enable more dtypes, set the jax_enable_x64 configuration option or the JAX_ENABLE_X64 shell environment variable. See https://github.com/google/jax#current-gotchas for more.
+  return getattr(self.aval, name).fun(self, *args, **kwargs)
+2025-07-24 00:51:15.093362: E external/xla/xla/service/slow_operation_alarm.cc:65] 
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-24 00:55:27.712596: E external/xla/xla/service/slow_operation_alarm.cc:65] 
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-24 00:58:03.127152: E external/xla/xla/service/slow_operation_alarm.cc:65] 
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-24 01:00:37.823657: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 9h48m29.259358392s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-24 01:57:58.140733: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 10h45m49.523285045s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-24 02:52:21.450317: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 11h36m57.832681845s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-24 03:27:48.863649: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 12h12m25.591368855s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-24 03:35:29.680866: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 12h20m0.161543465s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-24 03:44:05.901562: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 12h25m6.241430519s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-24 03:45:45.904091: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 12h18m39.2621318s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-24 04:06:37.433243: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 12h39m17.912113175s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-24 04:22:58.259206: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 12h55m36.234199197s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-24 04:33:34.185358: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 13h17m8.250906348s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-24 04:40:18.231826: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 13h14m15.517544385s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-24 04:57:23.197559: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 13h30m14.908107476s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-24 05:14:42.123272: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 13h58m16.653655836s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-24 05:23:24.227659: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 14h7m55.471467851s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-24 05:57:08.248985: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 14h31m7.883351612s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-24 07:23:52.742272: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 15h54m43.457751002s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-24 07:27:31.811155: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 15h58m29.191075775s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-24 07:45:20.207856: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 16h20m21.155005248s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-24 08:01:29.419343: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 16h32m17.023208689s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-24 13:11:54.376319: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 15h39m18.50606591s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-24 13:20:16.323189: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 15h46m45.99937848s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-24 14:48:55.699564: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 17h33m52.922543056s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-24 15:13:00.033146: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 17h58m31.133603983s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-24 15:20:54.781512: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 18h38.566334272s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-24 16:21:54.689384: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 19h5m35.516166293s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-24 16:24:43.010920: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 18h59m54.822465513s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-24 18:00:04.848032: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 20h43m44.638013184s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-24 19:28:42.241105: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 21h35m30.363194799s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-24 19:45:53.216419: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 22h29m28.846306665s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-24 21:37:53.649848: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 23h58m36.248434976s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-24 22:21:23.085339: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 24h31m59.486379172s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-24 23:10:33.323859: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 23h52m32.781911113s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-24 23:12:12.293831: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 25h8m37.236542629s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-24 23:37:15.644691: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 22h48m0.55036076s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-25 00:05:14.162348: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 23h9m11.034588937s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-25 01:09:25.744990: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 27h28m52.47030793s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-25 01:20:11.951319: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 25h56m39.495880082s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-25 03:01:44.673635: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 27h30m54.658701595s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
+2025-07-25 05:15:31.198490: E external/xla/xla/service/slow_operation_alarm.cc:133] The operation took 28h22m3.484739078s
+
+********************************
+[Compiling module jit_optimizer_update] Very slow compile? If you want to file a bug, run with envvar XLA_FLAGS=--xla_dump_to=/tmp/foo and attach the results.
+********************************
