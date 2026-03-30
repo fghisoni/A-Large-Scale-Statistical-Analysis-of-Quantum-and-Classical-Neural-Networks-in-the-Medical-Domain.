@@ -19,6 +19,15 @@ The repository includes experiments on:
 
 ---
 
+## Associated Paper
+
+This repository accompanies the following paper:
+
+**A Large-Scale Statistical Analysis of Quantum and Classical Neural Networks in the Medical Domain**  
+https://www.nature.com/articles/s41598-025-33825-7
+
+---
+
 ## Repository Structure
 
 ```text
